@@ -1,0 +1,183 @@
+.bg_navbar {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_73.png?v=1717519008");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* HERO SECTION  */
+.large_screen_banner {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_1175_1.png?v=1718977321");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Loader styles */
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #F3E6C9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loader-center {
+  text-align: center;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #35160C;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+.loader-title {
+  margin-top: 24px;
+  font-family: 'Roboto Flex', sans-serif;
+  color: #35160C;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.plain_banner {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Banner_Bg.png?v=1717511196");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg_navbar_button {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Vector_1_680b3799-87aa-4f86-a5e8-493466e8a041.png?v=1717521872");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg_section_title {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_68.png?v=1717684964");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  letter-spacing: 3px;
+}
+
+.bg_main_button {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Vector_ee148d7d-a7be-4679-8b30-dd9ad9428687.png?v=1717512152");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* SERVICE */
+.bg_service {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_110.png?v=1717515725");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.bg_service_box {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_70.png?v=1717513643");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* min-width: 20rem !important;
+    min-height: 20rem !important; */
+}
+
+.bg_client_box {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_108.png?v=1717532668");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-width: 18rem !important;
+  min-height: 18rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* ABOUT US */
+.bg_about {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_1166_1.png?v=1717686429");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+/*FOOTER*/
+.bg_footer {
+  background-image: url("/bgfooter1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.bg_footer1 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Vector_2_e36a171b-441c-4f05-b512-f00a2425665b.png?v=1717692677");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 425px) {
+  .bg_client_box {
+    background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_108.png?v=1717532668");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* min-width: 20rem !important;
+    min-height: 20rem !important; */
+    min-width: 100% !important;
+    min-height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.bg_client_box_child {
+  padding-inline: 3rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bg_client_box_child {
+    padding-inline: 2rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .bg_client_box_child {
+    padding-inline: 1.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .main_header {
+    height: 12rem;
+  }
+}
